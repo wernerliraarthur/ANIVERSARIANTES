@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway-VariableFont_wght.ttf);
+}
+
+:root {
+    --fonte: Raleway;
+    --cor-titulo: #E02624;
+    --cor-paragrafo: #000000;
+    --cor-tabela: #55A1F0;
+    --cor-borda: #000000;
+    --cor-tabela2: #77b7dd;
+}
+
+body {
+    font-family: var(--fonte);
+    width: 900px;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/fundo.jpg);
+}
+
+.titulo {
+    color: var(--cor-titulo);
+    text-align: center;
+    font-size: 20px;
+}
+
+.cabeçalho {
+    background-image: url(../img/baloes\ feliz\ aniversario.png);
+    background-size: 100% 100%;
+    height: 200px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    color: var(--cor-paragrafo);
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 700px;
+}
+
+tr.campus {
+    background-color: #ffffff;
+    border: 2px solid var(--cor-borda);
+    color: var(--cor-titulo);
+    padding: 10px;
+    font-size: 30px;
+}
+
+td.nomes {
+    background-color: #ffffff;
+    border: 2px solid var(--cor-borda);
+    text-align: left;
+    padding: 4px;
+    font-size: 20px;
+}
+
+td {
+    border: 2px solid var(--cor-borda);
+    background-color: var(--cor-tabela);
+    padding: 8px;
+}
+
+td.linha1 {
+    background-color: var(--cor-tabela2);
+}
+
+td.linha2 {
+    background-color: var(--cor-tabela2);
+}
+
+td.linha3 {
+    background-color: var(--cor-tabela2);
+}
+
+td.linha4 {
+    background-color: var(--cor-tabela2);
+}
+
+td.linha5 {
+    background-color: var(--cor-tabela2);
+}
+
+td.linha6 {
+    background-color: var(--cor-tabela2);
+}
+
+td.linha7 {
+    background-color: var(--cor-tabela2);
+}
